@@ -1,2 +1,2 @@
 # Mission_to_Mars
-Web Scrape Full-Resolution Mars Hemisphere Images, Store data in MongoDB
+Use Splinter & Beautiful Soup to automate a Web Scrape, Store data in MongoDB, Display with Flask
