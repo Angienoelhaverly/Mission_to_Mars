@@ -8,3 +8,8 @@ Use Splinter & Beautiful Soup to automate a Web Scrape, Store data in MongoDB, D
 * Create a web application with Flask to display the data from the web scrape.
 * Create an HTML/CSS portfolio to showcase projects.
 * Use Bootstrap components to polish and customize the portfolio
+
+## Deliverables
+* Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
+* Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles
+* Deliverable 3: Add Bootstrap 3 Components
