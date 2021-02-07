@@ -8,7 +8,7 @@ import datetime as dt
 
 def scrape_all():
     # Initiate headless driver for deployment
-    executable_path = {'executable_path': ChromeDriverManager().install()}
+    executable_path = {'executable_path': 'chromedriver.exe'}
     browser = Browser('chrome', **executable_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
@@ -18,8 +18,9 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
-        "last_modified": dt.datetime.now(),
-        "hemispheres": hemisphere_data(browser)
+        "hemispheres": hemisphere_data(browser), 
+        "last_modified": dt.datetime.now()
+
     }
     # Stop webdriver and return data
     browser.quit()
@@ -87,8 +88,6 @@ def hemisphere_data(browser):
     # 1. Use browser to visit the URL 
     url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(url)
-    # Optional delay for loading the page
-    browser.is_element_present_by_css("ul li", wait_time=1)
 
     # 2. Create a list to hold the image url string and titles for each image.
     hemisphere_image_urls = []
@@ -100,7 +99,7 @@ def hemisphere_data(browser):
 
     # Find the HTML tag that holds all the links to the full-resolution images
     # find the list of results
-    mars_images = mars_hemisphere.find_all('div', class_='item')
+    mars_images = mars_hemispheres.find_all('div', class_='item')
 
     # Set a base url to add onto in the for loop
     base_url = 'https://astrogeology.usgs.gov'
