@@ -16,11 +16,8 @@ Use Splinter & Beautiful Soup to automate a Web Scrape, Store data in MongoDB, D
 
 ## Scraping Resources 
 [NASA's Mars Exploration Program News Feed](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest)
-
 [Archived NASA's JPL Mars image repository](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)
-
 [Mars Space Facts](https://space-facts.com/mars/)
-
 [Mars Hemisphere Images](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
 
 ## Scraped Web Results 
