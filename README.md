@@ -1,7 +1,10 @@
 # Mission_to_Mars
 Use Splinter & Beautiful Soup to automate a Web Scrape, Store data in MongoDB, Display with Flask
 
-## Project Overview
+## Project Purpose
+Web Scraping is a method of gaining data from different sources quickly instead of visiting each website yourself and manually extracting data. The web scraping process is automated using a programming script. Web scraping is a method used by organizations worldwide to extract online data for analysis. Large companies employ web scraping to assess their reputations or track their competitors' online presence. On a smaller scale, web scraping automates tedious tasks for personal projects. For example, if you're collecting current news on a specific subject, web scraping can make it a simple process.
+
+### Goals
 * Use HTML elements, including class and id attributes, to identify content for web scraping.
 * Use BeautifulSoup and Splinter to automate a web browser and perform a web scrape.
 * Create a MongoDB database to store data from the web scrape.
