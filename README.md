@@ -10,9 +10,9 @@ Use Splinter & Beautiful Soup to automate a Web Scrape, Store data in MongoDB, D
 * Use Bootstrap components to polish and customize the portfolio
 
 ## Deliverables
-* Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
-* Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles
-* Deliverable 3: Add Bootstrap 3 Components
+* Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles [Scraping.py](https://github.com/Angienoelhaverly/Mission_to_Mars/blob/main/Mars_Scraping/scraping.py)
+* Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles [App.py](https://github.com/Angienoelhaverly/Mission_to_Mars/blob/main/Mars_Scraping/app.py)
+* Deliverable 3: Add Bootstrap 3 Components [Index.HTML](https://github.com/Angienoelhaverly/Mission_to_Mars/blob/main/Mars_Scraping/templates/index.html)
 
 ## Scraping Resources 
 * [NASA's Mars Exploration Program News Feed](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest)
